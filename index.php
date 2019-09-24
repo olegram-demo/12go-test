@@ -1,8 +1,6 @@
 <?php
 
-declare(strict_types=1);
-
-if (version_compare(PHP_VERSION, '7.1') === -1) {
+if (version_compare(PHP_VERSION, '7.1.0') === -1) {
     echo "Required PHP >= 7.1.0\nCurrent version " . PHP_VERSION . "\nAborted!";
     exit(1);
 }
